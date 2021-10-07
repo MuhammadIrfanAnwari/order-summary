@@ -1,0 +1,111 @@
+/*font-family: 'Red Hat Display', sans-serif;*/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url("images/pattern-background-desktop.svg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.card{
+	flex-direction: column;
+	width: 375px;
+	background: white;
+	text-align: center;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.card .text{
+	margin-bottom: 10px;
+}
+
+.card .text p{
+	margin-top: 10px;
+}
+
+.card .head{
+	width: 375px;
+}
+
+.body{
+	padding: 40px;
+	font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.t1{
+	display: flex;
+	flex-direction: row;
+}
+
+.t1s{
+	margin-left: 10px;
+}
+
+.t2{
+	font-weight: bold;
+}
+
+.t2 a:hover{
+	text-decoration: none;
+	color: hsl(224, 23%, 55%);
+
+}
+
+.body p{
+	font-size: 16px;
+	color:  hsl(224, 23%, 55%)
+}
+
+.music{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding: 10px;
+	justify-content: space-between;
+	background-color: hsl(225, 100%, 98%);
+	align-items: center;
+}
+
+.btn{
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.blue{
+	background: hsl(245, 75%, 52%);
+	color: hsl(225, 100%, 98%);
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.black{
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 700;
+	color: hsl(224, 23%, 55%);
+	cursor: pointer;
+}
+
+.blue:hover{
+	background: hsl(245, 75%, 52%);
+	color: hsl(225, 100%, 98%);
+	opacity: .8;
+}
+
+.black:hover{
+	color: black;
+}
